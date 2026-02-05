@@ -33,8 +33,6 @@ class CollegeStudent(Student, SportsPlayer):
     def display_college_student(self):
         print("College:", self.college_name)
 
-
-# Object creation
 cs = CollegeStudent("Amit", "CS101", "Cricket", "ABC Engineering College")
 
 cs.display_person()
